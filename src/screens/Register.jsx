@@ -40,7 +40,7 @@ const Register = ({ navigation }) => {
         style={styles.textInput}
         label="E-mail"
         mode="flat"
-        left={<TextInput.Icon icon="at" size={25} color="black" />}
+        left={<TextInput.Icon icon="ac" size={25} color="black" />}
         value={text}
         onChangeText={(text) => setText(text)}
       />
